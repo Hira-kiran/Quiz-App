@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 
 import 'result_screen.dart';
@@ -13,204 +15,205 @@ class _QuizScreenState extends State<QuizScreen> {
   List quizListData = [
     {
       "id": 1,
-      "answer": "30%",
+      "answer": "32",
       "answer_discription": "",
       "is_answered": 0,
       "is_answer_status_right_wrong_omitted": 0,
-      "title":
-          "A mine or part there of may be treated as naturally wet if the roadway dust sample \r\ncontain_______or more of moisture by weight.",
+      "title": "How many keywords are there in C language?",
       "options": [
         {
-          "option": "a",
-          "value": "10%",
+          "option": "a)",
+          "value": "122",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "b",
-          "value": "15%",
+          "option": "b)",
+          "value": "45",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "c",
-          "value": "20%",
+          "option": "c)",
+          "value": "79",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "d",
-          "value": "30%",
+          "option": "d)",
+          "value": "32",
           "color": "0xFFFFFFFF",
         },
       ],
     },
     {
       "id": 2,
-      "answer": "25 cm",
+      "answer": "C99",
       "answer_discription": "",
       "is_answered": 0,
       "is_answer_status_right_wrong_omitted": 0,
       "title":
-          "The thickness of ventilation stopping constructed of masonary or brickwork shall be _______cms \r\nin thickness",
+          "___ is an informal name for ISO/IEC 9899:1999, a past version of the C programming language standard?",
       "options": [
         {
-          "option": "a",
-          "value": "20 cm",
+          "option": "a)",
+          "value": "C++",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "b",
-          "value": "15 cm",
+          "option": "b)",
+          "value": "Java",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "c",
-          "value": "25 cm",
+          "option": "c)",
+          "value": "C99",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "d",
-          "value": "10 cm",
+          "option": "d)",
+          "value": "C",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "e",
-          "value": "18 cm",
+          "option": "e)",
+          "value": "C88",
           "color": "0xFFFFFFFF",
         }
       ],
     },
     {
       "id": 3,
-      "answer": "Mine Managers",
+      "answer": "Polymorphism",
       "answer_discription": "",
       "is_answered": 0,
       "is_answer_status_right_wrong_omitted": 0,
-      "title": "M.V.T. Rules 1966 shall not apply to the following persons",
+      "title":
+          "The feature that allows the same operations to be carried out differently depending on the object is ________",
       "options": [
         {
-          "option": "a",
-          "value": "Timber man",
+          "option": "a)",
+          "value": "Polygamy",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "b",
-          "value": "Coal driller",
+          "option": "b)",
+          "value": "Multitasking",
           "color": "0xFFFFFFFF",
         },
         {
           "option": "c",
-          "value": "Coal driller",
+          "value": "Inheritane",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "d",
-          "value": "Mine Managers",
+          "option": "d)",
+          "value": "Polymorphism",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "e",
-          "value": "Haulage attendents",
+          "option": "e)",
+          "value": "None of above",
           "color": "0xFFFFFFFF",
         }
       ],
     },
     {
       "id": 4,
-      "answer": "3",
+      "answer": "Character",
       "answer_discription": "",
       "is_answered": 0,
       "is_answer_status_right_wrong_omitted": 0,
-      "title": "Mine Managers",
+      "title":
+          "The most efficient data type for a variable that stores the letter C is the _______ data type",
       "options": [
         {
-          "option": "a",
-          "value": "3",
+          "option": "a)",
+          "value": "Character",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "b",
-          "value": "2",
+          "option": "b)",
+          "value": "Int",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "c",
-          "value": "1",
+          "option": "c)",
+          "value": "Float",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "e",
-          "value": "Not required",
+          "option": "d)",
+          "value": "Double",
           "color": "0xFFFFFFFF",
         }
       ],
     },
     {
       "id": 5,
-      "answer": "1 year",
+      "answer": "Header",
       "answer_discription": "",
       "is_answered": 0,
       "is_answer_status_right_wrong_omitted": 0,
       "title":
-          "As per M.V.T. Rules 1966 every person holding a gast testing certificate shall once in __________ \r\nundergo a course of training as detailed in 8th schedule of M V T Rules 1966.",
+          "If you want to use a class to define objects in many different programs, you should define the class in a C++ _______ file",
       "options": [
         {
-          "option": "a",
-          "value": "5 years",
+          "option": "a)",
+          "value": "Program",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "b",
-          "value": "1 year",
+          "option": "b)",
+          "value": "Header",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "c",
-          "value": "2 years",
+          "option": "c)",
+          "value": "Text",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "d",
-          "value": "3years",
+          "option": "d)",
+          "value": "Source",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "e",
-          "value": "4years",
+          "option": "e)",
+          "value": "All of above",
           "color": "0xFFFFFFFF",
         }
       ],
     },
     {
       "id": 6,
-      "answer": "8m",
+      "answer": "Constructor",
       "answer_discription": "",
       "is_answered": 0,
       "is_answer_status_right_wrong_omitted": 0,
       "title":
-          "Main Mechanical Ventilator of a mine shall be installed on the surface at a distance of not less \r\nthan _____ from the opening of the shaft or inlcine",
+          "A function that is called automatically each time an object is created is a(n)",
       "options": [
         {
-          "option": "a",
-          "value": "10m",
+          "option": "a)",
+          "value": "Architect",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "b",
-          "value": "8m",
+          "option": "b)",
+          "value": "Constructor",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "c",
-          "value": "7m",
+          "option": "c)",
+          "value": "Builder",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "d",
-          "value": "5m",
+          "option": "d)",
+          "value": "Contractor",
           "color": "0xFFFFFFFF",
         },
         {
-          "option": "e",
-          "value": "4m",
+          "option": "e)",
+          "value": "Context",
           "color": "0xFFFFFFFF",
         }
       ],
@@ -261,13 +264,17 @@ class _QuizScreenState extends State<QuizScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFF053251),
       appBar: AppBar(
+        centerTitle: true,
         title: const Text("Quiz Screen"),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.symmetric(horizontal: 15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const SizedBox(
+              height: 20,
+            ),
             Text(
               "Question :${questionINdex + 1}/${quizListData.length}",
               style: const TextStyle(
@@ -297,7 +304,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       ),
                       Container(
                         decoration: BoxDecoration(
-                          color: const Color(0xFFFFAB40),
+                          color: Colors.orange,
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Padding(
@@ -305,9 +312,10 @@ class _QuizScreenState extends State<QuizScreen> {
                           child: Text(
                             quizListData[index]['title'],
                             style: const TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white),
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: const Color(0xFF053251),
+                            ),
                           ),
                         ),
                       ),
@@ -327,7 +335,7 @@ class _QuizScreenState extends State<QuizScreen> {
                               textAlign: TextAlign.center,
                             )
                           : const SizedBox(),
-                      SizedBox(
+                      const SizedBox(
                         height: 20,
                       ),
                       ...quizListData[index]['options']

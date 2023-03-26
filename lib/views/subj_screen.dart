@@ -11,10 +11,10 @@ class SubjectListScreen extends StatefulWidget {
 
 class _SubjectListScreenState extends State<SubjectListScreen> {
   final List subjectListData = const [
-    {"subject_name": "Hindi", "subject_id": "1001"},
-    {"subject_name": "English", "subject_id": "1002"},
-    {"subject_name": "Science", "subject_id": "1003"},
-    {"subject_name": "Math", "subject_id": "1004"},
+    {"subject_name": "Flutter", "subject_id": "1001"},
+    {"subject_name": "Java", "subject_id": "1002"},
+    {"subject_name": "Web", "subject_id": "1003"},
+    {"subject_name": "C++", "subject_id": "1004"},
   ];
   @override
   Widget build(BuildContext context) {
