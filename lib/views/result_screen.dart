@@ -68,7 +68,7 @@ class ResultScreen extends StatelessWidget {
                       progressColor: userPercentage < 60
                           ? Colors.purple
                           : const Color(0xFF437B85),
-                      backgroundColor: Color.fromARGB(255, 186, 185, 185),
+                      backgroundColor: const Color.fromARGB(255, 186, 185, 185),
                     ),
                   ],
                 ),

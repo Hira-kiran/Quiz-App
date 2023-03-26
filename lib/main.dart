@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'views/subj_screen.dart';
+import 'package:quiz_app/views/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const SubjectListScreen(),
+      home: const SplashScreen(),
     );
   }
 }

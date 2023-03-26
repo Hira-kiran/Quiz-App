@@ -314,7 +314,7 @@ class _QuizScreenState extends State<QuizScreen> {
                             style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
-                              color: const Color(0xFF053251),
+                              color: Color(0xFF053251),
                             ),
                           ),
                         ),

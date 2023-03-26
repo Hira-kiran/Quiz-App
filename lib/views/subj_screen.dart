@@ -19,7 +19,10 @@ class _SubjectListScreenState extends State<SubjectListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true, title: const Text("Subject List")),
+      appBar: AppBar(
+          automaticallyImplyLeading: false,
+          centerTitle: true,
+          title: const Text("Subject List")),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(children: [
